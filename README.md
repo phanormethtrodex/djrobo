@@ -29,6 +29,13 @@ interaction usage ex: vlc semiautorepeaterkiller (track skipper)
 while true; do printf "SKIP IT? "; read -p "(hit enter) "; echo "OK EXEC VLC KILLER.."; pkill.bat vlc.exe; echo; echo; done
 ```
 
+# OKAY
+last secret bashed together batchery scriptie for the kitties
+^above called pkill.bat:
+```
+taskkill /F /IM %*
+```
+
 
 TODO: push a shell of above bash'd djrobo invoker ex
       push a bat of above say (win) universal invoker
